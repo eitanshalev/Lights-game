@@ -1,4 +1,4 @@
-# Lights-game - :light:
+# Lights-game - :game:
 "Lights" is a puzzle, originally for Android phones, using a simple idea. Connect the path and win the game. Each Curvy puzzle consists of a grid of hexagonal tiles.
 Lights allows a variety of different puzzle sizes, providing puzzles that can be quickly solved as well as more complex versions depending on the size you choose. Originally an Android application, you can now play Curvy online or on the go.
 

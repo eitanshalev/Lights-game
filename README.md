@@ -28,7 +28,7 @@ We used iterators to efficiently go over the data structures, any function that 
 * Data structures and their function: The program contains a vector of points for the mathematical graph and a vector of points for the graph to be displayed using sfml. It is important to note that within each of them there is a vector as described above that corresponds to a rib corresponding to each vertex according to its position - if it is a point then its position will be a pair of X-Way versus light which otherwise retains its position and ribs.
 We used the learn function to go over data structures more efficiently. We also used the functions of the language - in the algorithm to go over data structures according to each function for example we used the for_if function to go over all the vertices that perform some action.
 
-(*) The interaction between the various objects is done cleanly through the Board class.
+* The interaction between the various objects is done cleanly through the Board class.
 
 Vector of points, vector of point to sfml-. Vector of ribs for the regular dot and for the dot to sfml.
 Remarks:

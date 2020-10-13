@@ -7,7 +7,7 @@ Lights allows a variety of different puzzle sizes, providing puzzles that can be
 
 [![](https://github.com/eitanshalev/Lights-game/blob/master/Lights_game_-_SFML___CC%2B%2B_BY_Eitan_Shalev_and_Yona_Harel.gif)](https://www.youtube.com/watch?v=kKJWvTO5axQ "my video game")
  
-desing:
+==================================Desing:==================================
 Classes + objects:
 1.Globals: Responsible for all the variables set in the program.
 2.Board: This is the basic class -Explanation: The class that is responsible for fun algorithms algorithmically- where all the steps are created (we created a function to create steps - it gets a number that represents the number of vertices that will be in the main row, and from it builds rows - it is important to note that it works for all A really positive whole index. Responsible for the whole matter of the step-by-step delete - delete a step that ended to proceed to the next step, etc. We did a function that destroys all the fun data at the end of a step for some reason.
@@ -31,7 +31,7 @@ We used iterators to efficiently go over the data structures, any function that 
 
 
 
-Main data structures and their function: The program contains a vector of points for the mathematical graph and a vector of points for the graph to be displayed using sfml. It is important to note that within each of them there is a vector as described above that corresponds to a rib corresponding to each vertex according to its position - if it is a point then its position will be a pair of X-Way versus light which otherwise retains its position and ribs.
+* Data structures and their function: The program contains a vector of points for the mathematical graph and a vector of points for the graph to be displayed using sfml. It is important to note that within each of them there is a vector as described above that corresponds to a rib corresponding to each vertex according to its position - if it is a point then its position will be a pair of X-Way versus light which otherwise retains its position and ribs.
 We used the learn function to go over data structures more efficiently. We also used the functions of the language - in the algorithm to go over data structures according to each function for example we used the for_if function to go over all the vertices that perform some action.
 
 (*) The interaction between the various objects is done cleanly through the Board class.

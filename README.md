@@ -8,7 +8,7 @@ Lights allows a variety of different puzzle sizes, providing puzzles that can be
 [![](https://github.com/eitanshalev/Lights-game/blob/master/Lights_game_-_SFML___CC%2B%2B_BY_Eitan_Shalev_and_Yona_Harel.gif)](https://www.youtube.com/watch?v=kKJWvTO5axQ "my video game")
  
 desing:
-#Classes + objects:
+Classes + objects:
 1.Globals: Responsible for all the variables set in the program.
 2.Board: This is the basic class -Explanation: The class that is responsible for fun algorithms algorithmically- where all the steps are created (we created a function to create steps - it gets a number that represents the number of vertices that will be in the main row, and from it builds rows - it is important to note that it works for all A really positive whole index. Responsible for the whole matter of the step-by-step delete - delete a step that ended to proceed to the next step, etc. We did a function that destroys all the fun data at the end of a step for some reason.
 We now have 2 more classes for the logic of the game which are: Graph, Point
